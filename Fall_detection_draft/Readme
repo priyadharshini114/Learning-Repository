@@ -1,0 +1,45 @@
+# Fall Detection Using YOLOv5
+
+## Overview
+This project involves the detection of falls using the YOLOv5 object detection model. It is designed to classify and detect falls in real-time video, alongside other activities such as walking and sitting. The repository includes the steps for dataset handling, model training, and performance evaluation.
+
+## Features
+- **Fall Detection**: Utilizes a custom-trained YOLOv5 model to detect falls.
+- **Activity Classification**: Differentiates between falling, walking, and sitting.
+- **Dataset Handling**: Supports downloading and preparing the dataset from Kaggle.
+- **Training and Evaluation**: Includes scripts for training YOLOv5 and evaluating model performance.
+- **Experiment Management**: Helps manage multiple training experiments by keeping only essential results.
+
+## Dataset
+The dataset used for training consists of labeled images categorized into three classes:
+1. Fall Detected
+2. Walking
+3. Sitting
+
+The dataset is sourced from Kaggle and is structured into training and validation sets.
+
+## Installation
+
+### Requirements
+- Python 3.8+
+- YOLOv5
+- Kaggle API
+- Required Python libraries (listed in `requirements.txt`)
+
+### Setup Steps
+1. Clone the YOLOv5 repository and install the necessary dependencies.
+2. Set up your Kaggle API key and download the fall detection dataset.
+3. Prepare the dataset paths and configuration files for YOLOv5.
+4. Train the YOLOv5 model on the dataset using the appropriate configuration.
+5. Evaluate the model’s performance and save the results.
+
+## Model Training
+- The model is trained using YOLOv5’s standard training script.
+- Custom dataset with three classes: Fall Detected, Walking, and Sitting.
+- Training results, including metrics and weights, are saved for analysis.
+
+## Evaluation
+After training, the model is evaluated to check its performance on validation data. Results are stored and can be used for further analysis or fine-tuning.
+
+## Managing Training Experiments
+To avoid clutter from multiple training sessions, the repository provides a way to manage and delete older experiments, retaining only the most relevant ones for future reference.
