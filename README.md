@@ -1,2 +1,19 @@
-# Learning-Repository
-Welcome to the Learning Repository! This repository is designed for educational purposes and contains various projects related to Flask API development, computer vision (CV), machine learning, natural language processing (NLP), large language models (LLM), and generative AI.
+# 🚀 Learning Repository
+
+This is my personal learning repository where I explore and experiment with new concepts, tools, and technologies.  
+You’ll find a mix of projects I'm currently learning — from quick tests to more structured mini-projects.
+
+---
+
+# 🔧 Topics I’m exploring include:
+- Flask API development  
+- Machine Learning (ML)  
+- Computer Vision (CV)  
+- Natural Language Processing (NLP)  
+- Large Language Models (LLMs)  
+- Generative AI and more...
+
+---
+
+# 📝 Note:
+These projects are not polished — they reflect what I’m actively learning and building.
