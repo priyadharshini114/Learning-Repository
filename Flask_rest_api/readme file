@@ -1,0 +1,27 @@
+#Structure:
+flask-api: Build a REST API using Flask, SQLite, SQLAlchemy, and Marshmallow.
+
+# Flask API - Setup Guide
+##Installing Packages:
+
+pip install flask
+pip install flask-sqlalchemy
+pip install flask-marshmallow
+
+# Set Up Your Environment
+1) from main import db
+2) db.create_all()
+        or
+2) with app.app_context():
+    db.create_all()
+
+# Run the Flask application:
+python app.py
+
+Testing
+Use Postman or any API testing tool to interact with the API endpoints and populate your database.
+Contributing
+Feel free to contribute by opening issues or submitting pull requests. For more details, refer to the CONTRIBUTING.md file in each project folder.
+
+
+

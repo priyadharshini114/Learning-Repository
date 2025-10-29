@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Image Annotation Tool 🖼️
 
 An interactive GUI-based image annotation tool built using **Tkinter** and **YOLOv8** for automated and manual bounding box creation.
@@ -56,3 +57,24 @@ MIT License © 2025
 ---
 
 Would you like me to generate the `requirements.txt` content manually (based on your imports) so you can include it directly without running `pip freeze`?
+=======
+# 🚀 Learning Repository
+
+This is my personal learning repository where I explore and experiment with new concepts, tools, and technologies.  
+You’ll find a mix of projects I'm currently learning — from quick tests to more structured mini-projects.
+
+---
+
+# 🔧 Topics I’m exploring include:
+- Flask API development  
+- Machine Learning (ML)  
+- Computer Vision (CV)  
+- Natural Language Processing (NLP)  
+- Large Language Models (LLMs)  
+- Generative AI and more...
+
+---
+
+# 📝 Note:
+These projects are not polished — they reflect what I’m actively learning and building.
+>>>>>>> 01314477b502ad8da2a8ae4c7fd6af88032f67a8
