@@ -1,0 +1,42 @@
+# 🐍 Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🚫 Environment folders
+env/
+venv/
+.venv/
+
+# 🧠 Model and large data files
+*.pt
+*.pth
+*.onnx
+*.h5
+*.ckpt
+*.weights
+
+# 📦 Package build files
+build/
+dist/
+*.egg-info/
+
+# 🧪 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# ⚙️ VSCode / IDE settings
+.vscode/
+.idea/
+
+# 🗂️ Logs and temporary files
+*.log
+*.tmp
+*.cache/
+*.DS_Store
+
+# 📁 Dataset or output folders (optional)
+datasets/
+outputs/
+runs/
+results/
